@@ -25,9 +25,11 @@ npm run setup
 
 This command will:
 
-- Install all dependencies
+- Install all dependencies using `npm ci` (clean install from package-lock.json)
 - Generate Prisma client
 - Run database migrations
+
+**Note:** For adding new packages, use `npm install <package-name>`
 
 ## Running the Application
 
